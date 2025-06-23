@@ -1,11 +1,14 @@
-# num1 = int(input("Enter your number one :"))
-# num2 = int(input("Enter your number two :"))
+a = 5
+b = 10.0
+c = 5j
 
-# sum = num1 + num2
-# print(sum)
 
-# desce = input("Enter your bio:")
-# print(desce)
-import random
-print(random.randrange(1,20))
+
+print( "Type of a :",type(a)),
+print( "Type of b :",type(b)),
+print( "Type of c :",type(c)),
+
+
+
+print( "convert int to float :",type(float(a)),"Value : ",float(a)),
 
